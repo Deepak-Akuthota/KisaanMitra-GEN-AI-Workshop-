@@ -1,0 +1,15 @@
+project:
+  name: KisaanMitra
+  description: >
+    Multi-agent AI system providing localized, Gemini-powered farm advice.
+
+agents:
+  root:
+    path: manager.agent
+    variable: root_agent
+    description: Main orchestrator agent coordinating sub-agents.
+
+ui:
+  theme: green
+  port: 8000
+  root_input: text

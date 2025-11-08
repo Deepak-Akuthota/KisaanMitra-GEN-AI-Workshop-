@@ -1,3 +1,13 @@
-google-adk[database]==0.3.0
-google-generativeai==0.8.5
-python-dotenv==1.1.0
+google-adk
+
+python-dotenv
+
+requests
+
+# Optional: if you ever parse or pretty-print JSON responses
+json5
+
+google-auth
+google-auth-httplib2
+
+tqdm
